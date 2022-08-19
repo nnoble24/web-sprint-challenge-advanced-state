@@ -1,6 +1,6 @@
 // ❗ You don't need to add extra reducers to achieve MVP
 import { combineReducers } from 'redux'
-
+//1st sub
 const initialWheelState = 0
 function wheel(state = initialWheelState, action) {
   return state
